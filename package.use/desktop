@@ -5,3 +5,14 @@ www-client/firefox hardened
 media-libs/libvpx postproc
 app-admin/keepassxc -network
 sys-apps/xdg-desktop-portal seccomp flatpak
+media-sound/spotify pax-kernel
+dev-util/nvidia-cuda-toolkit nsight sanitizer vis-profiler
+gnome-base/gnome -cups
+gnome-base/gnome-light -cups
+gnome-base/nautilus -previewer
+media-video/ffmpeg opus vpx
+sys-libs/zlib minizip
+gnome-base/gnome-control-center gnome-online-accounts
+media-video/obs-studio lua nvenc speex v4l
+media-video/ffmpeg nvenc
+media-video/mpv nvenc

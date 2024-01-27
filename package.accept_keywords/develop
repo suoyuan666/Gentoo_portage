@@ -2,7 +2,8 @@ net-proxy/v2rayA ~amd64
 net-proxy/v2ray ~amd64
 app-alternatives/v2ray-geoip ~amd64
 app-alternatives/v2ray-geosite ~amd64
-dev-libs/v2ray-domain-list-community-bin ~amd64
-dev-libs/v2ray-geoip-bin ~amd64
-dev-libs/v2ray-rules-dat ~amd64
+dev-libs/v2ray-domain-list-community-bin **
+dev-libs/v2ray-geoip-bin **
+dev-libs/v2ray-rules-dat **
 media-fonts/intel-one-mono ~amd64
+dev-util/idea-community ~amd64
