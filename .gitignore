@@ -1,8 +1,6 @@
-binrepos.conf
-profile
-profile
-savedconfig
-package.mask
-env
-binrepos.conf
-package.env
+/binrepos.conf
+/profile
+/savedconfig
+/package.mask
+/binrepos.conf
+/package.env

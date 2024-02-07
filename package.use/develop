@@ -1,6 +1,6 @@
 app-alternatives/v2ray-geoip v2fly
 app-alternatives/v2ray-geosite v2fly
-app-emulation/qemu virgl usbredirspice qemu_softmmu_targets_x86_64 qemu_softmmu_targets_riscv64
+app-emulation/qemu virgl virtfs usbredir spice sasl  usbredirspice qemu_softmmu_targets_x86_64 qemu_softmmu_targets_riscv64
 app-emulation/libvirt bash-completion
 net-misc/spice-gtk usbredir
 net-dns/dnsmasq script
@@ -8,3 +8,12 @@ net-libs/gnutls pkcs11 tools
 net-firewall/nftables json python xtables
 app-containers/docker btrfs
 app-editors/emacs json
+# test
+app-emulation/virt-viewer sasl
+app-emulation/spice sasl
+net-misc/spice-gtk sasl
+app-emulation/libvirt sasl
+net-libs/gtk-vnc sasl
+app-emulation/virt-manager sasl
+#for vscode extension rust-analyzer
+dev-lang/rust rust-analyzer rust-src

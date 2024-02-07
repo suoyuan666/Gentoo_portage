@@ -7,7 +7,7 @@ media-libs/tg_owt ~amd64
 dev-cpp/cppgir ~amd64
 dev-cpp/expected-lite ~amd64
 mail-client/geary ~amd64
-gnome-base/gnome-control-center gnome-online-accounts
 media-video/obs-studio ~amd64
 x11-themes/smplayer-skins ~amd64
 games-util/game-device-udev-rules ~amd64
+net-p2p/qbittorrent-enhanced ~amd64
