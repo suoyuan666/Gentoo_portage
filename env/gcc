@@ -1,0 +1,10 @@
+CFLAGS="-O2 -march=x86-64-v3"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O2,-z,now,--as-needed"
+
+CC="gcc"
+CXX="g++"
+CPP="gcc -E"
+AR="ar"
+NM="nm"
+RANLIB="ranlib"

@@ -6,7 +6,6 @@ net-misc/spice-gtk usbredir
 net-dns/dnsmasq script
 net-libs/gnutls pkcs11 tools
 net-firewall/nftables json python xtables
-app-containers/docker btrfs
 app-editors/emacs json
 # test
 app-emulation/virt-viewer sasl

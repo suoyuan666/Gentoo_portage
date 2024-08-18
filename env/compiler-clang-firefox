@@ -1,0 +1,4 @@
+COMMON_FLAGS="-O2 -pipe -march=x86-64-v3 -flto=thin -fstack-protector-strong -fstack-clash-protection -fcf-protection=full"
+CLAGS="${COMMON_FLAGS} -fvisibility=hidden -fvisibility-inlines-hidden"
+CXXLAGS="${COMMON_FLAGS} -fvisibility=hidden -fvisibility-inlines-hidden"
+

@@ -3,7 +3,7 @@ dev-libs/libdbusmenu gtk3
 x11-misc/lightdm -gnome
 www-client/firefox hardened
 media-libs/libvpx postproc
-app-admin/keepassxc -network
+app-admin/keepassxc -network -X
 sys-apps/xdg-desktop-portal seccomp flatpak
 media-sound/spotify pax-kernel
 dev-util/nvidia-cuda-toolkit nsight sanitizer vis-profiler
@@ -13,6 +13,13 @@ gnome-base/nautilus -previewer
 media-video/ffmpeg opus vpx
 sys-libs/zlib minizip
 gnome-base/gnome-control-center gnome-online-accounts
-media-video/obs-studio lua nvenc speex v4l
-media-video/ffmpeg nvenc
-media-video/mpv nvenc
+media-video/obs-studio lua  speex v4l
+dev-qt/qtgui egl
+dev-libs/libdbusmenu gtk3
+gui-apps/waybar mpris network tray
+gui-apps/swaybg gdk-pixbuf
+www-client/firefox libproxy hwaccel system-png openh264
+media-libs/libvpx postproc
+media-libs/libpng apng
+media-gfx/imv gif png svg
+x11-terms/kitty -X
