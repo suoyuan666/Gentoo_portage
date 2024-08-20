@@ -2,8 +2,6 @@ net-misc/networkmanager iwd
 sys-boot/grub mount
 x11-drivers/nvidia-drivers wayland
 media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server
-media-libs/mesa wayland
-x11-libs/gtk+ wayland
 x11-drivers/nvidia-drivers dist-kernel
 app-containers/containerd btrfs
 sys-kernel/installkernel dracut  grub
