@@ -6,4 +6,12 @@ dev-libs/v2ray-domain-list-community-bin **
 dev-libs/v2ray-geoip-bin **
 dev-libs/v2ray-rules-dat **
 media-fonts/intel-one-mono ~amd64
+media-fonts/symbols-nerd-font ~amd64
 dev-util/idea-community ~amd64
+app-editors/neovim ~amd64
+dev-libs/tree-sitter-lua ~amd64
+dev-libs/tree-sitter-markdown ~amd64
+dev-libs/tree-sitter-query ~amd64
+dev-libs/tree-sitter-vim ~amd64
+dev-libs/tree-sitter-vimdoc ~amd64
+sys-devel/crossdev ~amd64
