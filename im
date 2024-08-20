@@ -1,0 +1,3 @@
+app-dicts/fcitx-pinyin-zhwiki::gentoo-zh ~amd64
+app-i18n/fcitx-configtool:5 ~amd64
+app-i18n/fcitx-rime:5 ~amd64
