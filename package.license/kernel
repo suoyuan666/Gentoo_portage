@@ -1,3 +1,4 @@
 sys-kernel/linux-firmware linux-fw-redistributable
 sys-firmware/intel-microcode intel-ucode
 x11-drivers/nvidia-drivers NVIDIA-r2
+media-libs/libva-intel-media-driver no-source-code

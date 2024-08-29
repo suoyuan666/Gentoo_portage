@@ -23,3 +23,7 @@ media-libs/libvpx postproc
 media-libs/libpng apng
 media-gfx/imv gif png svg
 x11-terms/kitty -X
+media-fonts/noto cjk
+app-text/xmlto text
+kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme
+# gui-libs/wlroots x11-backend

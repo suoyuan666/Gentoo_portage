@@ -1,0 +1,12 @@
+media-libs/pulseaudio-qt ~amd64
+
+kde-plasma/* ~amd64
+kde-frameworks/* ~amd64
+kde-misc/* ~amd64
+kde-apps/* ~amd64
+
+x11-misc/sddm ~amd64
+gui-apps/xwaylandvideobridge ~amd64
+kde-frameworks/extra-cmake-modules ~amd64
+dev-libs/kirigami-addons ~amd64
+dev-libs/qcoro ~amd64

@@ -5,3 +5,5 @@ media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server
 x11-drivers/nvidia-drivers dist-kernel
 app-containers/containerd btrfs
 sys-kernel/installkernel dracut  grub
+x11-drivers/nvidia-drivers kernel-open powerd
+media-libs/libva-intel-media-driver ~amd64

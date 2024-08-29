@@ -1,0 +1,21 @@
+From eb42adc4c090918ad6be9fcb24066da8cdfd9bd0 Mon Sep 17 00:00:00 2001
+From: Serenity Braesch <Serenity.Braesch@proton.me>
+Date: Sat, 24 Aug 2024 01:53:08 -0600
+Subject: [PATCH] Fix missing include needed by clang
+
+---
+ src/managers/XCursorManager.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/managers/XCursorManager.cpp b/src/managers/XCursorManager.cpp
+index 7fc21a28..1e7ca535 100644
+--- a/src/managers/XCursorManager.cpp
++++ b/src/managers/XCursorManager.cpp
+@@ -1,3 +1,4 @@
++#include <algorithm>
+ #include <cstring>
+ #include <dirent.h>
+ #include <filesystem>
+-- 
+2.44.2
+
