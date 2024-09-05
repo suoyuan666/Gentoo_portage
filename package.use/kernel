@@ -1,3 +1,4 @@
+sys-kernel/gentoo-kernel experimental
 net-misc/networkmanager iwd
 sys-boot/grub mount
 x11-drivers/nvidia-drivers wayland

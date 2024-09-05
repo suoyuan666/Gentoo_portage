@@ -24,3 +24,4 @@ gui-wm/hyprland ~amd64
 gui-libs/aquamarine ~amd64
 dev-util/hyprwayland-scanner ~amd64
 gui-apps/foot ~amd64
+app-text/tldr ~amd64

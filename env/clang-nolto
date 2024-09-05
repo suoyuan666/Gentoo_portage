@@ -1,0 +1,7 @@
+COMMON_FLAGS="-O3 -pipe -fstack-protector-strong -fstack-clash-protection -fcf-protection=full"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-Wl,-O3,-z,now,--as-needed,--icf=safe,--gc-sections"
+

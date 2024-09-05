@@ -18,7 +18,8 @@ dev-qt/qtgui egl
 dev-libs/libdbusmenu gtk3
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
-www-client/firefox libproxy hwaccel system-png openh264
+www-client/firefox libproxy hwaccel openh264 system-png -telemetry
+www-client/chromium gtk4 qt6
 media-libs/libvpx postproc
 media-libs/libpng apng
 media-gfx/imv gif png svg
@@ -27,3 +28,5 @@ media-fonts/noto cjk
 app-text/xmlto text
 kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme
 # gui-libs/wlroots x11-backend
+app-i18n/fcitx-chinese-addons -cloudpinyin
+x11-base/xwayland xcsecurity
