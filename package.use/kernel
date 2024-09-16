@@ -1,5 +1,8 @@
-sys-kernel/gentoo-kernel experimental
-net-misc/networkmanager iwd
+app-antivirus/clamav clamdtop bzip2 clamonacc clamsubmit iconv ipv6 milter metadata-analysis-api
+
+sys-kernel/gentoo-kernel experimental modules-compress
+sys-kernel/gentoo-sources experimental
+net-misc/networkmanager iwd -gtk-doc
 sys-boot/grub mount
 x11-drivers/nvidia-drivers wayland
 media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server
@@ -7,4 +10,8 @@ x11-drivers/nvidia-drivers dist-kernel
 app-containers/containerd btrfs
 sys-kernel/installkernel dracut  grub
 x11-drivers/nvidia-drivers kernel-open powerd
-media-libs/libva-intel-media-driver ~amd64
+net-misc/wget2 lzip lzma openssl
+
+app-editors/nano magic
+
+app-admin/doas persist

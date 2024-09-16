@@ -1,3 +1,10 @@
+app-text/texlive-core cjk xetex
+app-text/texlive l10n_zh cjk graphics xetex context pdfannotextractor png
+dev-qt/qttools designer qml
+x11-libs/gtk+ colord cloudproviders broadway
+media-libs/libavif gdk-pixbuf dav1d svt-av1
+net-libs/webkit-gtk avif lcms pdf
+media-libs/harfbuzz icu
 app-text/poppler -qt5
 dev-libs/libdbusmenu gtk3
 x11-misc/lightdm -gnome
@@ -18,7 +25,7 @@ dev-qt/qtgui egl
 dev-libs/libdbusmenu gtk3
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
-www-client/firefox libproxy hwaccel openh264 system-png -telemetry
+www-client/firefox libproxy hwaccel openh264 system-png l10n_zh-CN -telemetry
 www-client/chromium gtk4 qt6
 media-libs/libvpx postproc
 media-libs/libpng apng
@@ -30,3 +37,4 @@ kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme
 # gui-libs/wlroots x11-backend
 app-i18n/fcitx-chinese-addons -cloudpinyin
 x11-base/xwayland xcsecurity
+app-i18n/fcitx-qt qt6
