@@ -1,9 +1,15 @@
+
+net-im/wemeet::gentoo-zh ~amd64
+
 media-video/obs-studio ~amd64
 x11-themes/smplayer-skins ~amd64
 
 =gui-wm/sway-9999 **
 =gui-libs/wlroots-9999 **
 =gui-wm/wayfire-9999 **
+
+#=gui-wm/hyprland-9999 **
+#=gui-libs/aquamarine-9999 **
 
 dev-libs/wayland ~amd64
 dev-util/wayland-scanner ~amd64

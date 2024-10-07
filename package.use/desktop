@@ -1,3 +1,12 @@
+
+x11-terms/st savedconfig
+x11-base/xorg-server xcsecurity
+
+dev-qt/qtbase icu
+dev-qt/qt5compat icu qml
+
+media-libs/freetype harfbuzz
+media-libs/sdl2-image jpegxl png gif webp
 app-text/texlive-core cjk xetex
 app-text/texlive l10n_zh cjk graphics xetex context pdfannotextractor png
 dev-qt/qttools designer qml
@@ -30,7 +39,6 @@ www-client/chromium gtk4 qt6
 media-libs/libvpx postproc
 media-libs/libpng apng
 media-gfx/imv gif png svg
-x11-terms/kitty -X
 media-fonts/noto cjk
 app-text/xmlto text
 kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme

@@ -1,4 +1,5 @@
 app-antivirus/clamav clamdtop bzip2 clamonacc clamsubmit iconv ipv6 milter metadata-analysis-api
+media-video/v4l2loopback dist-kernel
 
 sys-kernel/gentoo-kernel experimental modules-compress
 sys-kernel/gentoo-sources experimental

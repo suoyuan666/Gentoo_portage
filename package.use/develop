@@ -1,8 +1,10 @@
+media-libs/gd fontconfig truetype # for ysyx yosys
+
 dev-qt/qt-creator qmldesigner designer
 app-alternatives/v2ray-geoip -v2fly loyalsoldier
 app-alternatives/v2ray-geosite -v2fly loyalsoldier
 net-proxy/v2rayA -xray
-app-emulation/qemu gtk virgl virtfs usbredir spice sasl usb usbredirspice io-uring qemu_softmmu_targets_x86_64 qemu_softmmu_targets_riscv64
+app-emulation/qemu gtk virgl virtfs usbredir spice sasl usb usbredirspice io-uring qemu_softmmu_targets_x86_64 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64
 app-emulation/libvirt bash-completion
 net-misc/spice-gtk usbredir
 net-dns/dnsmasq script
