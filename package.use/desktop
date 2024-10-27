@@ -1,8 +1,9 @@
-
+gui-libs/egl-x11 abi_x86_32
+media-libs/libwebp gif
 x11-terms/st savedconfig
 x11-base/xorg-server xcsecurity
 
-dev-qt/qtbase icu
+dev-qt/qtbase icu cups
 dev-qt/qt5compat icu qml
 
 media-libs/freetype harfbuzz
@@ -34,7 +35,9 @@ dev-qt/qtgui egl
 dev-libs/libdbusmenu gtk3
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
-www-client/firefox libproxy hwaccel openh264 system-png l10n_zh-CN -telemetry
+www-client/firefox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
+mail-client/thunderbird pgo system-png system-icu
+dev-lang/rust abi_x86_32
 www-client/chromium gtk4 qt6
 media-libs/libvpx postproc
 media-libs/libpng apng
@@ -42,7 +45,8 @@ media-gfx/imv gif png svg
 media-fonts/noto cjk
 app-text/xmlto text
 kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme
+media-libs/phonon minimal
 # gui-libs/wlroots x11-backend
 app-i18n/fcitx-chinese-addons -cloudpinyin
 x11-base/xwayland xcsecurity
-app-i18n/fcitx-qt qt6
+app-i18n/fcitx-qt qt5 qt6
