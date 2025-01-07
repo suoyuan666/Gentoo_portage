@@ -1,6 +1,0 @@
-COMMON_FLAGS="-O2 -pipe -march=x86-64-v3 -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -D_FORTIFY_SOURCE=3"
-CFLAGS="${COMMON_FLAGS}"
-CXXFLAGS="${COMMON_FLAGS}"
-FCFLAGS="${COMMON_FLAGS}"
-FFLAGS="${COMMON_FLAGS}"
-LDFLAGS="-Wl,-O2,-z,now,--as-needed,--icf=safe,--gc-sections"

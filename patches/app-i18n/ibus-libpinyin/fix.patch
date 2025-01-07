@@ -1,0 +1,12 @@
+diff --git a/src/PYLibPinyin.h b/src/PYLibPinyin.h
+index 820dd08..f8e0866 100644
+--- a/src/PYLibPinyin.h
++++ b/src/PYLibPinyin.h
+@@ -24,6 +24,7 @@
+ #include <memory>
+ #include <time.h>
+ #include <glib.h>
++#include <stdio.h>
+ 
+ typedef struct _pinyin_context_t pinyin_context_t;
+ typedef struct _pinyin_instance_t pinyin_instance_t;

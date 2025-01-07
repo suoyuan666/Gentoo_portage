@@ -1,24 +1,15 @@
-sys-devel/gcc pgo
-app-shells/bash pgo
-app-arch/xz-utils pgo
-
-net-misc/curl -curl_quic_openssl -curl_ssl_openssl -openssl curl_quic_ngtcp2 curl_ssl_gnutls gnutls
-
-app-antivirus/clamav clamdtop bzip2 clamonacc clamsubmit iconv ipv6 milter metadata-analysis-api
-media-video/v4l2loopback dist-kernel
-
 sys-kernel/gentoo-kernel experimental modules-compress
 sys-kernel/gentoo-sources experimental
 net-misc/networkmanager iwd -gtk-doc
 sys-boot/grub mount
-x11-drivers/nvidia-drivers wayland
 media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server
 x11-drivers/nvidia-drivers dist-kernel
 app-containers/containerd btrfs
-sys-kernel/installkernel dracut  grub
+sys-apps/systemd boot cryptsetup
+sys-kernel/installkernel dracut systemd-boot
 x11-drivers/nvidia-drivers kernel-open powerd
 net-misc/wget2 lzip lzma openssl
-
 app-editors/nano magic
-
 app-admin/doas persist
+sys-apps/fwupd tpm uefi bash-completion
+dev-lang/python pgo

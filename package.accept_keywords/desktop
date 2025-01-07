@@ -1,34 +1,6 @@
-
-net-im/wemeet::gentoo-zh ~amd64
-
-media-video/obs-studio ~amd64
-x11-themes/smplayer-skins ~amd64
-
-=gui-wm/sway-9999 **
-=gui-libs/wlroots-9999 **
-=gui-wm/wayfire-9999 **
-
-#=gui-wm/hyprland-9999 **
-#=gui-libs/aquamarine-9999 **
-
-dev-libs/wayland ~amd64
-dev-util/wayland-scanner ~amd64
-www-client/firefox ~amd64
-dev-libs/nss ~amd64
 gui-apps/wlsunset::guru ~amd64
 app-misc/brightnessctl::guru ~amd64
 app-misc/cliphist::guru ~amd64
-gui-apps/foot ~amd64
-gui-libs/xdg-desktop-portal-hyprland::guru ~amd64
-dev-cpp/sdbus-c++ ~amd64
-gui-apps/hyprlock::guru ~amd64
-gui-libs/hyprutils ~amd64
-media-sound/yesplaymusic-bin ~amd64
-gui-wm/wayfire ~amd64
-gui-libs/wf-config ~amd64
-gui-wm/hyprland ~amd64
-gui-libs/aquamarine ~amd64
-dev-util/hyprwayland-scanner ~amd64
-gui-apps/foot ~amd64
-app-text/tldr ~amd64
-app-misc/glow::guru ~amd64
+app-misc/keyd::gentoo-zh ~amd64
+
+net-im/wemeet::gentoo-zh ~amd64

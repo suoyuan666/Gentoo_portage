@@ -1,1 +1,3 @@
-使用 Gentoo Linux 的时候真的懒得再去写 USE 变量以及各种 env 了，故而做个备份，方便以后使用
+每次装完 Gentoo Linux 都需要重新写 package.use, package.accept_keywords, package.license 这些，太难受了。我选择将它们备份一下。
+
+我选择了 LLVM/systemd profile，全局 thinlto 编译，开启了 luks2 硬盘加密和安全启动。

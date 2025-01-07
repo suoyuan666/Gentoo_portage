@@ -1,52 +1,33 @@
-gui-libs/egl-x11 abi_x86_32
-media-libs/libwebp gif
-x11-terms/st savedconfig
-x11-base/xorg-server xcsecurity
-
-dev-qt/qtbase icu cups
-dev-qt/qt5compat icu qml
-
-media-libs/freetype harfbuzz
-media-libs/sdl2-image jpegxl png gif webp
+www-client/firefox pgo hardened wasm libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
+media-video/ffmpeg libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24  libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 opus
+app-admin/keepassxc -network -X -ssh-agent -keyring
+www-client/chromium lto gtk4 qt6 qt5
+app-i18n/fcitx-chinese-addons -cloudpinyin
+app-i18n/fcitx-qt qt5 qt6
+media-gfx/imv gif png svg
+media-video/obs-studio luaqsv  speex v4l
 app-text/texlive-core cjk xetex
 app-text/texlive l10n_zh cjk graphics xetex context pdfannotextractor png
-dev-qt/qttools designer qml
-x11-libs/gtk+ colord cloudproviders broadway
-media-libs/libavif gdk-pixbuf dav1d svt-av1
-net-libs/webkit-gtk avif lcms pdf
-media-libs/harfbuzz icu
-app-text/poppler -qt5
-dev-libs/libdbusmenu gtk3
-x11-misc/lightdm -gnome
-www-client/firefox hardened
-media-libs/libvpx postproc
-app-admin/keepassxc -network -X
-sys-apps/xdg-desktop-portal seccomp flatpak
-media-sound/spotify pax-kernel
-dev-util/nvidia-cuda-toolkit nsight sanitizer vis-profiler
-gnome-base/gnome -cups
-gnome-base/gnome-light -cups
-gnome-base/nautilus -previewer
-media-video/ffmpeg libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24  libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 opus
-sys-libs/zlib minizip
-gnome-base/gnome-control-center gnome-online-accounts
-media-video/obs-studio luaqsv  speex v4l
-dev-qt/qtgui egl
-dev-libs/libdbusmenu gtk3
+mail-client/thunderbird pgo system-png system-icu
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
-www-client/firefox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
-mail-client/thunderbird pgo system-png system-icu
-dev-lang/rust abi_x86_32
-www-client/chromium gtk4 qt6
+
+x11-base/xwayland xcsecurity
+x11-base/xorg-server xcsecurity
+
+gui-wm/hyprland -qtutils
+
+sys-apps/xdg-desktop-portal flatpak
+sys-libs/zlib minizip
+media-libs/sdl2-image jpegxl png gif webp
 media-libs/libvpx postproc
 media-libs/libpng apng
-media-gfx/imv gif png svg
-media-fonts/noto cjk
-app-text/xmlto text
+media-libs/libavif gdk-pixbuf dav1d svt-av1
+dev-libs/libdbusmenu gtk3
+
+dev-qt/qtgui egl
+
 kde-plasma/plasma-meta firewall flatpak -browser-integration oxygen-theme
-media-libs/phonon minimal
-# gui-libs/wlroots x11-backend
-app-i18n/fcitx-chinese-addons -cloudpinyin
-x11-base/xwayland xcsecurity
-app-i18n/fcitx-qt qt5 qt6
+gnome-base/gnome -cups
+gnome-base/gnome-light -cups
+gnome-base/gnome-control-center gnome-online-accounts

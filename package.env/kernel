@@ -1,0 +1,3 @@
+sys-devel/gcc gcc-flags
+sys-apps/keyutils clang-undefined-version
+x11-drivers/nvidia-drivers clang-noicf
