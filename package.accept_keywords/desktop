@@ -2,5 +2,6 @@ gui-apps/wlsunset::guru ~amd64
 app-misc/brightnessctl::guru ~amd64
 app-misc/cliphist::guru ~amd64
 app-misc/keyd::gentoo-zh ~amd64
+gui-libs/xdg-desktop-portal-hyprland::guru ~amd64
 
 net-im/wemeet::gentoo-zh ~amd64

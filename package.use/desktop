@@ -1,7 +1,7 @@
-www-client/firefox pgo hardened wasm libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
+www-client/firefox pgo hardened wasm wasm-sandbox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
 media-video/ffmpeg libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24  libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 opus
 app-admin/keepassxc -network -X -ssh-agent -keyring
-www-client/chromium lto gtk4 qt6 qt5
+www-client/chromium lto pgo gtk4 qt6 qt5 
 app-i18n/fcitx-chinese-addons -cloudpinyin
 app-i18n/fcitx-qt qt5 qt6
 media-gfx/imv gif png svg
@@ -11,9 +11,11 @@ app-text/texlive l10n_zh cjk graphics xetex context pdfannotextractor png
 mail-client/thunderbird pgo system-png system-icu
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
+gnome-extra/nm-applet appindicator
 
 x11-base/xwayland xcsecurity
 x11-base/xorg-server xcsecurity
+sys-auth/pambase gnome-keyring
 
 gui-wm/hyprland -qtutils
 
@@ -21,7 +23,6 @@ sys-apps/xdg-desktop-portal flatpak
 sys-libs/zlib minizip
 media-libs/sdl2-image jpegxl png gif webp
 media-libs/libvpx postproc
-media-libs/libpng apng
 media-libs/libavif gdk-pixbuf dav1d svt-av1
 dev-libs/libdbusmenu gtk3
 
