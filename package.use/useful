@@ -5,3 +5,6 @@ media-libs/harfbuzz icu
 net-libs/nodejs inspector
 dev-libs/icu abi_x86_32
 media-libs/freetype harfbuzz
+media-libs/tg_owt -X
+dev-libs/libutf8proc -cjk
+media-libs/libpng apng

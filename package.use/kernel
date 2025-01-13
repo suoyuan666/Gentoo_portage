@@ -16,3 +16,5 @@ dev-lang/python pgo
 app-shells/bash pgo
 dev-libs/openssl ktls
 sys-apps/man-pages -l10n_zh-CN
+app-arch/xz-utils pgo
+sys-devel/gcc pgo

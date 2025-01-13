@@ -1,25 +1,19 @@
 =sci-electronics/verilator-5.008::suoyuan ~amd64
 sci-electronics/yosys::suoyuan ~amd64
 
-net-proxy/v2rayA ~amd64
-net-proxy/v2ray ~amd64
-app-alternatives/v2ray-geoip ~amd64
-app-alternatives/v2ray-geosite ~amd64
-dev-libs/v2ray-domain-list-community-bin **
-dev-libs/v2ray-geoip-bin **
-dev-libs/v2ray-rules-dat **
-net-proxy/Xray ~amd64
-dev-libs/v2ray-rules-dat-bin ~amd64
+net-proxy/v2rayA::gentoo-zh ~amd64
+net-proxy/v2ray::gentoo-zh ~amd64
+app-alternatives/v2ray-geoip::gentoo-zh ~amd64
+app-alternatives/v2ray-geosite::gentoo-zh ~amd64
+dev-libs/v2ray-domain-list-community-bin::gentoo-zh **
+dev-libs/v2ray-geoip-bin::gentoo-zh **
+dev-libs/v2ray-rules-dat::gentoo-zh **
+net-proxy/Xray::gentoo-zh ~amd64
+dev-libs/v2ray-rules-dat-bin::gentoo-zh ~amd64
 
 media-fonts/intel-one-mono ~amd64
 media-fonts/symbols-nerd-font ~amd64
 
 dev-util/idea-community ~amd64
 
-app-editors/neovim ~amd64
-dev-libs/tree-sitter-lua ~amd64
-dev-libs/tree-sitter-markdown ~amd64
-dev-libs/tree-sitter-query ~amd64
-dev-libs/tree-sitter-vim ~amd64
-dev-libs/tree-sitter-vimdoc ~amd64
-sys-devel/crossdev ~amd64
+app-misc/ollama::suoyuan **

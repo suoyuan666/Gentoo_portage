@@ -12,3 +12,5 @@ net-misc/spice-gtk usbredir
 net-dns/dnsmasq script
 net-libs/gnutls pkcs11 tools
 app-emulation/virt-manager gui
+
+app-misc/ollama nvidia cuda

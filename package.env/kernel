@@ -1,4 +1,5 @@
-sys-devel/gcc gcc-flags
+sys-devel/gcc gcc-flags ccache
 sys-apps/keyutils clang-undefined-version
 x11-drivers/nvidia-drivers clang-noicf
+dev-util/nvidia-cuda-toolkit gcc
 cross-riscv64-unknown-linux-gnu/gcc gcc

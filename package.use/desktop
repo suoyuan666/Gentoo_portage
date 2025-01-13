@@ -1,5 +1,5 @@
 www-client/firefox pgo hardened wasm wasm-sandbox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
-media-video/ffmpeg libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24  libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 opus
+media-video/ffmpeg ass jpeg2k sdl libxml2 lzma zimg webp cuda v4l libv4l vmaf openssl qsv zvbi libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24 libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 x265 opus
 app-admin/keepassxc -network -X -ssh-agent -keyring
 www-client/chromium lto pgo gtk4 qt6 qt5 
 app-i18n/fcitx-chinese-addons -cloudpinyin
@@ -12,6 +12,8 @@ mail-client/thunderbird pgo system-png system-icu
 gui-apps/waybar mpris network tray
 gui-apps/swaybg gdk-pixbuf
 gnome-extra/nm-applet appindicator
+net-im/telegram-desktop qt6 -X
+app-text/zathura-meta epub
 
 x11-base/xwayland xcsecurity
 x11-base/xorg-server xcsecurity
