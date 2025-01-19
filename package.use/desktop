@@ -1,5 +1,5 @@
-www-client/firefox pgo hardened wasm wasm-sandbox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
-media-video/ffmpeg ass jpeg2k sdl libxml2 lzma zimg webp cuda v4l libv4l vmaf openssl qsv zvbi libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24 libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 x265 opus
+www-client/firefox pulseaudio  pgo hardened wasm wasm-sandbox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
+media-video/ffmpeg pulseaudio  ass jpeg2k sdl libxml2 lzma zimg webp cuda v4l libv4l vmaf openssl qsv zvbi libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24 libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 x265 opus
 app-admin/keepassxc -network -X -ssh-agent -keyring
 www-client/chromium lto pgo gtk4 qt6 qt5 
 app-i18n/fcitx-chinese-addons -cloudpinyin
@@ -9,7 +9,7 @@ media-video/obs-studio luaqsv  speex v4l
 app-text/texlive-core cjk xetex
 app-text/texlive l10n_zh cjk graphics xetex context pdfannotextractor png
 mail-client/thunderbird pgo system-png system-icu
-gui-apps/waybar mpris network tray
+gui-apps/waybar mpris network tray -pulseaudio
 gui-apps/swaybg gdk-pixbuf
 gnome-extra/nm-applet appindicator
 net-im/telegram-desktop qt6 -X
@@ -20,6 +20,7 @@ x11-base/xorg-server xcsecurity
 sys-auth/pambase gnome-keyring
 
 gui-wm/hyprland -qtutils
+gui-wm/niri screencast
 
 sys-apps/xdg-desktop-portal flatpak
 sys-libs/zlib minizip
@@ -27,6 +28,9 @@ media-libs/sdl2-image jpegxl png gif webp
 media-libs/libvpx postproc
 media-libs/libavif gdk-pixbuf dav1d svt-av1
 dev-libs/libdbusmenu gtk3
+media-sound/mpg123-base pulseaudio
+media-libs/noise-suppression-for-voice vst3 lv2
+media-libs/libcanberra pulseaudio
 
 dev-qt/qtgui egl
 

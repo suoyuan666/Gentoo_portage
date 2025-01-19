@@ -2,8 +2,8 @@ sys-kernel/gentoo-kernel experimental modules-compress
 sys-kernel/gentoo-sources experimental
 net-misc/networkmanager iwd -gtk-doc
 sys-boot/grub mount
-media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server
-x11-drivers/nvidia-drivers dist-kernel
+media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server v4l lv2
+x11-drivers/nvidia-drivers dist-kernel modules-compress
 app-containers/containerd btrfs
 sys-apps/systemd boot cryptsetup
 sys-kernel/installkernel dracut systemd-boot

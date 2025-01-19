@@ -5,3 +5,7 @@ app-misc/keyd::gentoo-zh ~amd64
 gui-libs/xdg-desktop-portal-hyprland::guru ~amd64
 
 net-im/wemeet::gentoo-zh ~amd64
+
+gui-wm/niri::guru ~amd64
+
+mpv-plugin/mpv-mpris::guru ~amd64
