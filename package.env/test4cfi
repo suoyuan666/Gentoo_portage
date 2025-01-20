@@ -7,4 +7,7 @@ app-admin/keepassxc clang-cfi
 gui-apps/waybar clang-cfi
 app-text/zathura clang-cfi
 app-text/zathura-pdf-mupdf clang-cfi
-
+gui-libs/wlroots clang-cfi-visibility-protected
+app-editors/neovim clang-cfi-visibility-protected
+gui-apps/wofi clang-cfi-visibility-protected
+gui-apps/swaylock clang-cfi

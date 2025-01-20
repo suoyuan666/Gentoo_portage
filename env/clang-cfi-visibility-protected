@@ -1,0 +1,5 @@
+COMMON_FLAGS="-O3 -pipe -march=x86-64-v3 -flto=thin -fsanitize=cfi -fvisibility=protected -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -D_FORTIFY_SOURCE=3"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
