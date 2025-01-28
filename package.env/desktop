@@ -1,2 +1,7 @@
 net-libs/gtk-vnc gcc
 www-client/chromium ccache
+
+dev-libs/hyprgraphics gcc
+
+gui-libs/vte-common gcc
+x11-libs/vte gcc

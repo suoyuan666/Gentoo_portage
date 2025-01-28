@@ -14,10 +14,13 @@ gui-apps/swaybg gdk-pixbuf
 gnome-extra/nm-applet appindicator
 net-im/telegram-desktop qt6 -X
 app-text/zathura-meta epub
+media-sound/mpd flac faad gme mpg123 twolame vorbis -alsa
 
 x11-base/xwayland xcsecurity
 x11-base/xorg-server xcsecurity
 sys-auth/pambase gnome-keyring
+
+sys-power/power-profiles-daemon bash-completion
 
 gui-wm/hyprland -qtutils
 gui-wm/niri screencast
@@ -25,12 +28,14 @@ gui-wm/niri screencast
 sys-apps/xdg-desktop-portal flatpak
 sys-libs/zlib minizip
 media-libs/sdl2-image jpegxl png gif webp
+media-libs/sdl2-mixer vorbis
 media-libs/libvpx postproc
 media-libs/libavif gdk-pixbuf dav1d svt-av1
 dev-libs/libdbusmenu gtk3
 media-sound/mpg123-base pulseaudio
 media-libs/noise-suppression-for-voice vst3 lv2
 media-libs/libcanberra pulseaudio
+dev-util/vulkan-tools cube
 
 dev-qt/qtgui egl
 

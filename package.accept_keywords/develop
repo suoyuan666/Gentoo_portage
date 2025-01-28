@@ -11,9 +11,6 @@ dev-libs/v2ray-rules-dat::gentoo-zh **
 net-proxy/Xray::gentoo-zh ~amd64
 dev-libs/v2ray-rules-dat-bin::gentoo-zh ~amd64
 
-media-fonts/intel-one-mono ~amd64
-media-fonts/symbols-nerd-font ~amd64
-
-dev-util/idea-community ~amd64
+app-misc/glow::guru ~amd64
 
 app-misc/ollama::suoyuan **

@@ -8,6 +8,18 @@ gui-apps/waybar clang-cfi
 app-text/zathura clang-cfi
 app-text/zathura-pdf-mupdf clang-cfi
 gui-libs/wlroots clang-cfi-visibility-protected
-app-editors/neovim clang-cfi-visibility-protected
+# app-editors/neovim clang-cfi-visibility-default
 gui-apps/wofi clang-cfi-visibility-protected
 gui-apps/swaylock clang-cfi
+
+gui-wm/hyprland clang-cfi-visibility-protected
+# gui-libs/hyprutils clang-cfi-visibility-protected
+# gui-libs/hyprcursor clang-cfi-visibility-protected
+# gui-libs/aquamarine clang-cfi-visibility-protected
+# dev-libs/hyprlang clang-cfi-visibility-protected
+# dev-libs/hyprland-protocols clang-cfi-visibility-protected
+# dev-util/hyprwayland-scanner clang-cfi-visibility-protected
+
+dev-vcs/git clang-cfi
+# net-misc/curl clang-cfi-visibility-default
+# dev-libs/openssl clang-cfi-visibility-default

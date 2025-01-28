@@ -1,3 +1,5 @@
+app-text/tldr::guru ~amd64
+
 gui-apps/wlsunset::guru ~amd64
 app-misc/brightnessctl::guru ~amd64
 app-misc/cliphist::guru ~amd64

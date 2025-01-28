@@ -1,3 +1,6 @@
+dev-debug/gdb source-highlight xml
+cross-riscv64-unknown-linux-gnu/gdb source-highlight xml
+
 dev-lang/rust abi_x86_32
 
 dev-qt/qt-creator qmldesigner designer
@@ -14,3 +17,5 @@ net-libs/gnutls pkcs11 tools
 app-emulation/virt-manager gui
 
 app-misc/ollama nvidia cuda
+
+dev-debug/systemtap libvirt
