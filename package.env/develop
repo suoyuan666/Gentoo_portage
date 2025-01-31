@@ -1,4 +1,5 @@
 sci-electronics/verilator gcc
 sys-libs/libnvidia-container gcc
+sys-cluster/rdma-core gcc
 # app-misc/ollama gcc
 # app-containers/nvidia-container-toolkit gcc

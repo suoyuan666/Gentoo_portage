@@ -36,6 +36,7 @@ media-sound/mpg123-base pulseaudio
 media-libs/noise-suppression-for-voice vst3 lv2
 media-libs/libcanberra pulseaudio
 dev-util/vulkan-tools cube
+dev-util/nvidia-cuda-toolkit nsight profiler rdma sanitizer
 
 dev-qt/qtgui egl
 

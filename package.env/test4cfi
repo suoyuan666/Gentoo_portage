@@ -2,6 +2,7 @@ media-video/mpv clang-cfi
 gui-wm/sway clang-cfi
 gui-apps/foot clang-cfi
 app-admin/keepassxc clang-cfi
+media-gfx/imv clang-cfi
 # gui-libs/wlroots clang-cfi # sway use wlroots symbol
 # app-editors/neovim clang-cfi # build error
 gui-apps/waybar clang-cfi
