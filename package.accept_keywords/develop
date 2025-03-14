@@ -10,6 +10,7 @@ dev-libs/v2ray-geoip-bin::gentoo-zh **
 dev-libs/v2ray-rules-dat::gentoo-zh **
 net-proxy/Xray::gentoo-zh ~amd64
 dev-libs/v2ray-rules-dat-bin::gentoo-zh ~amd64
+net-proxy/dae::gentoo-zh ~amd64
 
 app-misc/glow::guru ~amd64
 

@@ -24,3 +24,5 @@ gui-wm/hyprland clang-cfi-visibility-protected
 dev-vcs/git clang-cfi
 # net-misc/curl clang-cfi-visibility-default
 # dev-libs/openssl clang-cfi-visibility-default
+
+app-text/tree clang-cfi

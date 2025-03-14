@@ -12,10 +12,12 @@ x11-drivers/nvidia-drivers kernel-open powerd
 net-misc/wget2 lzip lzma openssl
 app-editors/nano magic
 app-admin/doas persist
-sys-apps/fwupd bash-completion
+sys-apps/fwupd amt bash-completion uefi tpm gnutls
 dev-lang/python pgo
 app-shells/bash pgo
 dev-libs/openssl ktls
 sys-apps/man-pages -l10n_zh-CN
 app-arch/xz-utils pgo
 sys-devel/gcc pgo
+net-firewall/firewalld gui
+net-firewall/nftables python json xtables

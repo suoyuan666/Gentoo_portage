@@ -3,3 +3,5 @@ sys-apps/keyutils clang-undefined-version
 x11-drivers/nvidia-drivers clang-noicf
 dev-util/nvidia-cuda-toolkit gcc
 cross-riscv64-unknown-linux-gnu/gcc gcc
+
+app-portage/eix eix-extra-econf

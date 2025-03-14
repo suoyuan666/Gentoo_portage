@@ -8,3 +8,8 @@ media-libs/freetype harfbuzz
 media-libs/tg_owt -X
 dev-libs/libutf8proc -cjk
 media-libs/libpng apng
+dev-python/pillow webp tiff
+app-text/poppler cairo
+media-gfx/inkscape svg2 exif wpg visio
+media-libs/babl lcms introspection
+media-libs/gegl lcms cairo introspection

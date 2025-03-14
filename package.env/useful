@@ -1,1 +1,3 @@
 sys-libs/db gcc
+dev-libs/mpfr gcc
+sci-libs/lapack gcc

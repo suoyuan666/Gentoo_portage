@@ -1,7 +1,7 @@
 www-client/firefox pulseaudio  pgo hardened wasm wasm-sandbox libproxy hwaccel openh264 system-png l10n_zh-CN -X -telemetry
-media-video/ffmpeg pulseaudio  ass jpeg2k sdl libxml2 lzma zimg webp cuda v4l libv4l vmaf openssl qsv zvbi libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24 libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 x265 opus
+media-video/ffmpeg pulseaudio npp ass jpeg2k jpegxl sdl libxml2 lzma zimg webp cuda v4l libv4l vmaf openssl qsv zvbi libaom amr amrenc bluray bs2b codec2 fdk gme ladspa libaribb24 libass libdrm libplacebo libilbc liblc3 librtmp libsoxr libtesseract lv2 libdvdnav libdvdread openh264 rubberband speex srt vidstab vpx xvid svt-av1 x264 x265 opus
 app-admin/keepassxc -network -X -ssh-agent -keyring
-www-client/chromium lto pgo gtk4 qt6 qt5 
+www-client/chromium lto pgo gtk4 qt6 qt5
 app-i18n/fcitx-chinese-addons -cloudpinyin
 app-i18n/fcitx-qt qt5 qt6
 media-gfx/imv gif png svg
@@ -15,6 +15,8 @@ gnome-extra/nm-applet appindicator
 net-im/telegram-desktop qt6 -X
 app-text/zathura-meta epub
 media-sound/mpd flac faad gme mpg123 twolame vorbis -alsa
+media-sound/cmus pulseaudio
+media-gfx/gimp jpegxl jpeg2k webp wfm
 
 x11-base/xwayland xcsecurity
 x11-base/xorg-server xcsecurity
