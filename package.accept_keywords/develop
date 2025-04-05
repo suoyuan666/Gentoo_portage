@@ -16,3 +16,5 @@ app-misc/glow::guru ~amd64
 
 app-misc/ollama::suoyuan ~amd64
 app-misc/ollama-bin::suoyuan ~amd64
+
+dev-util/dmg2img::guru ~amd64

@@ -1,2 +1,2 @@
-LDFLAGS_BASE="-Wl,-O3,-z,now,--as-needed,--lto-O3,--icf=safe,--gc-sections"
+LDFLAGS_BASE="-Wl,-O3,-z,now,-z,noexecstack,--as-needed,--lto-O3,--icf=safe,--gc-sections"
 LDFLAGS="${LDFLAGS_BASE} -Wl,--undefined-version"

@@ -1,8 +1,8 @@
-COMMON_FLAGS="-O3 -pipe -march=x86-64-v3 -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -D_FORTIFY_SOURCE=3"
+COMMON_FLAGS="-O3 -Wall -Wformat -Wformat=2 -pipe -march=x86-64-v3 -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fstrict-flex-arrays=3"
 RUSTFLAGS="${RUSTFLAGS} -C target-cpu=native"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
-LDFLAGS="-Wl,-O3,-z,now,--as-needed,--icf=safe,--gc-sections"
+LDFLAGS="-Wl,-O3,-z,now,-z,noexecstack,--as-needed,--icf=safe,--gc-sections"
 

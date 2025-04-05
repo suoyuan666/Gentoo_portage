@@ -13,3 +13,4 @@ app-text/poppler cairo
 media-gfx/inkscape svg2 exif wpg visio
 media-libs/babl lcms introspection
 media-libs/gegl lcms cairo introspection
+dev-libs/xmlsec nss

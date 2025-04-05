@@ -26,3 +26,4 @@ dev-vcs/git clang-cfi
 # dev-libs/openssl clang-cfi-visibility-default
 
 app-text/tree clang-cfi
+app-misc/tmux clang-cfi

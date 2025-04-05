@@ -17,6 +17,7 @@ app-text/zathura-meta epub
 media-sound/mpd flac faad gme mpg123 twolame vorbis -alsa
 media-sound/cmus pulseaudio
 media-gfx/gimp jpegxl jpeg2k webp wfm
+app-office/libreoffice gstreamer gtk4 qt6
 
 x11-base/xwayland xcsecurity
 x11-base/xorg-server xcsecurity

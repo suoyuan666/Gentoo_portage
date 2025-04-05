@@ -4,11 +4,10 @@ net-misc/networkmanager -gtk-doc
 net-wireless/wpa_supplicant wps wimax tdls fasteap eap-sim
 sys-boot/grub mount
 media-video/pipewire flatpak gstreamer ffmpeg extra pipewire-alsa sound-server v4l lv2
-x11-drivers/nvidia-drivers dist-kernel modules-compress
+x11-drivers/nvidia-drivers kernel-open powerd  dist-kernel modules-compress
 app-containers/containerd btrfs
 sys-apps/systemd boot cryptsetup
 sys-kernel/installkernel dracut systemd-boot
-x11-drivers/nvidia-drivers kernel-open powerd
 net-misc/wget2 lzip lzma openssl
 app-editors/nano magic
 app-admin/doas persist
